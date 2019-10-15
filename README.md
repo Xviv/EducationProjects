@@ -9,3 +9,4 @@ My first project was an instant messenger for bachelor’s degree. It was pretty
 ## Other projects
 My other projects you can see in repository.
 Realy soon there will be some new projects using CoreData,MLCore,ARKit and some more.
+
