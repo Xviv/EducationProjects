@@ -8,6 +8,8 @@ My first project was an instant messenger for bachelor’s degree. It was pretty
 
 ## Student's personal cabinet
 It was a university project for "Галактика" company.
+
+
 <img src="https://user-images.githubusercontent.com/15909427/66828682-5396d600-ef5a-11e9-906d-5cc22f62aa8a.gif" data-canonical-src="https://user-images.githubusercontent.com/15909427/66828682-5396d600-ef5a-11e9-906d-5cc22f62aa8a.gif" width="200" height="400" />
 <img src="https://user-images.githubusercontent.com/15909427/66828683-5396d600-ef5a-11e9-9e55-a639b271d541.gif" data-canonical-src="https://user-images.githubusercontent.com/15909427/66828683-5396d600-ef5a-11e9-9e55-a639b271d541.gif" width="200" height="400" />
 <img src="https://user-images.githubusercontent.com/15909427/66828684-5396d600-ef5a-11e9-8f17-0c7db076c428.gif" data-canonical-src="https://user-images.githubusercontent.com/15909427/66828684-5396d600-ef5a-11e9-8f17-0c7db076c428.gif" width="200" height="400" />
