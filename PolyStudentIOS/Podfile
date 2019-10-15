@@ -1,0 +1,27 @@
+platform :ios, '11.0'
+
+target 'PolyStudents' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PolyStudents
+pod 'SwiftSoup'
+pod 'p2.OAuth2'
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'SVProgressHUD'
+	
+#Don't update this pod
+pod 'JTAppleCalendar'
+
+  target 'PolyStudentsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'PolyStudentsUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		E134DF1A21A74CF30040270C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E134DF1921A74CF30040270C /* Inceptionv3.mlmodel */; };
+		E139CF9921A7420F0040F811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139CF9821A7420F0040F811 /* AppDelegate.swift */; };
+		E139CF9B21A7420F0040F811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139CF9A21A7420F0040F811 /* ViewController.swift */; };
+		E139CF9E21A7420F0040F811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139CF9C21A7420F0040F811 /* Main.storyboard */; };
+		E139CFA021A7420F0040F811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E139CF9F21A7420F0040F811 /* Assets.xcassets */; };
+		E139CFA321A7420F0040F811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139CFA121A7420F0040F811 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E134DF1921A74CF30040270C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		E139CF9521A7420F0040F811 /* HotdogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E139CF9821A7420F0040F811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E139CF9A21A7420F0040F811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E139CF9D21A7420F0040F811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E139CF9F21A7420F0040F811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E139CFA221A7420F0040F811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E139CFA421A7420F0040F811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E139CF9221A7420F0040F811 /* Frameworks */ = {
+=======
+		E139CF7B21A741270040F811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139CF7A21A741270040F811 /* AppDelegate.swift */; };
+		E139CF7D21A741270040F811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139CF7C21A741270040F811 /* ViewController.swift */; };
+		E139CF8021A741270040F811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139CF7E21A741270040F811 /* Main.storyboard */; };
+		E139CF8221A741280040F811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E139CF8121A741280040F811 /* Assets.xcassets */; };
+		E139CF8521A741280040F811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139CF8321A741280040F811 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E139CF7721A741270040F811 /* HotdogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E139CF7A21A741270040F811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E139CF7C21A741270040F811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E139CF7F21A741270040F811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E139CF8121A741280040F811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E139CF8421A741280040F811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E139CF8621A741280040F811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E139CF7421A741270040F811 /* Frameworks */ = {
+>>>>>>> RealmTodoey
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+<<<<<<< HEAD
+		E139CF8C21A7420F0040F811 = {
+			isa = PBXGroup;
+			children = (
+				E139CF9721A7420F0040F811 /* HotdogApp */,
+				E139CF9621A7420F0040F811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E139CF9621A7420F0040F811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E139CF9521A7420F0040F811 /* HotdogApp.app */,
+=======
+		E139CF6E21A741270040F811 = {
+			isa = PBXGroup;
+			children = (
+				E139CF7921A741270040F811 /* HotdogApp */,
+				E139CF7821A741270040F811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E139CF7821A741270040F811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E139CF7721A741270040F811 /* HotdogApp.app */,
+>>>>>>> RealmTodoey
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
+		E139CF9721A7420F0040F811 /* HotdogApp */ = {
+			isa = PBXGroup;
+			children = (
+				E139CF9821A7420F0040F811 /* AppDelegate.swift */,
+				E139CF9A21A7420F0040F811 /* ViewController.swift */,
+				E139CF9C21A7420F0040F811 /* Main.storyboard */,
+				E139CF9F21A7420F0040F811 /* Assets.xcassets */,
+				E139CFA121A7420F0040F811 /* LaunchScreen.storyboard */,
+				E139CFA421A7420F0040F811 /* Info.plist */,
+				E134DF1921A74CF30040270C /* Inceptionv3.mlmodel */,
+=======
+		E139CF7921A741270040F811 /* HotdogApp */ = {
+			isa = PBXGroup;
+			children = (
+				E139CF7A21A741270040F811 /* AppDelegate.swift */,
+				E139CF7C21A741270040F811 /* ViewController.swift */,
+				E139CF7E21A741270040F811 /* Main.storyboard */,
+				E139CF8121A741280040F811 /* Assets.xcassets */,
+				E139CF8321A741280040F811 /* LaunchScreen.storyboard */,
+				E139CF8621A741280040F811 /* Info.plist */,
+>>>>>>> RealmTodoey
+			);
+			path = HotdogApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+<<<<<<< HEAD
+		E139CF9421A7420F0040F811 /* HotdogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E139CFA721A7420F0040F811 /* Build configuration list for PBXNativeTarget "HotdogApp" */;
+			buildPhases = (
+				E139CF9121A7420F0040F811 /* Sources */,
+				E139CF9221A7420F0040F811 /* Frameworks */,
+				E139CF9321A7420F0040F811 /* Resources */,
+=======
+		E139CF7621A741270040F811 /* HotdogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E139CF8921A741280040F811 /* Build configuration list for PBXNativeTarget "HotdogApp" */;
+			buildPhases = (
+				E139CF7321A741270040F811 /* Sources */,
+				E139CF7421A741270040F811 /* Frameworks */,
+				E139CF7521A741270040F811 /* Resources */,
+>>>>>>> RealmTodoey
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotdogApp;
+			productName = HotdogApp;
+<<<<<<< HEAD
+			productReference = E139CF9521A7420F0040F811 /* HotdogApp.app */;
+=======
+			productReference = E139CF7721A741270040F811 /* HotdogApp.app */;
+>>>>>>> RealmTodoey
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+<<<<<<< HEAD
+		E139CF8D21A7420F0040F811 /* Project object */ = {
+=======
+		E139CF6F21A741270040F811 /* Project object */ = {
+>>>>>>> RealmTodoey
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Daniil;
+				TargetAttributes = {
+<<<<<<< HEAD
+					E139CF9421A7420F0040F811 = {
+=======
+					E139CF7621A741270040F811 = {
+>>>>>>> RealmTodoey
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+<<<<<<< HEAD
+			buildConfigurationList = E139CF9021A7420F0040F811 /* Build configuration list for PBXProject "HotdogApp" */;
+=======
+			buildConfigurationList = E139CF7221A741270040F811 /* Build configuration list for PBXProject "HotdogApp" */;
+>>>>>>> RealmTodoey
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+<<<<<<< HEAD
+			mainGroup = E139CF8C21A7420F0040F811;
+			productRefGroup = E139CF9621A7420F0040F811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E139CF9421A7420F0040F811 /* HotdogApp */,
+=======
+			mainGroup = E139CF6E21A741270040F811;
+			productRefGroup = E139CF7821A741270040F811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E139CF7621A741270040F811 /* HotdogApp */,
+>>>>>>> RealmTodoey
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
+		E139CF9321A7420F0040F811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E139CFA321A7420F0040F811 /* LaunchScreen.storyboard in Resources */,
+				E139CFA021A7420F0040F811 /* Assets.xcassets in Resources */,
+				E139CF9E21A7420F0040F811 /* Main.storyboard in Resources */,
+=======
+		E139CF7521A741270040F811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E139CF8521A741280040F811 /* LaunchScreen.storyboard in Resources */,
+				E139CF8221A741280040F811 /* Assets.xcassets in Resources */,
+				E139CF8021A741270040F811 /* Main.storyboard in Resources */,
+>>>>>>> RealmTodoey
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
+		E139CF9121A7420F0040F811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E139CF9B21A7420F0040F811 /* ViewController.swift in Sources */,
+				E134DF1A21A74CF30040270C /* Inceptionv3.mlmodel in Sources */,
+				E139CF9921A7420F0040F811 /* AppDelegate.swift in Sources */,
+=======
+		E139CF7321A741270040F811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E139CF7D21A741270040F811 /* ViewController.swift in Sources */,
+				E139CF7B21A741270040F811 /* AppDelegate.swift in Sources */,
+>>>>>>> RealmTodoey
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+<<<<<<< HEAD
+		E139CF9C21A7420F0040F811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E139CF9D21A7420F0040F811 /* Base */,
+=======
+		E139CF7E21A741270040F811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E139CF7F21A741270040F811 /* Base */,
+>>>>>>> RealmTodoey
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
+		E139CFA121A7420F0040F811 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E139CFA221A7420F0040F811 /* Base */,
+=======
+		E139CF8321A741280040F811 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E139CF8421A741280040F811 /* Base */,
+>>>>>>> RealmTodoey
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
+		E139CFA521A7420F0040F811 /* Debug */ = {
+=======
+		E139CF8721A741280040F811 /* Debug */ = {
+>>>>>>> RealmTodoey
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+<<<<<<< HEAD
+		E139CFA621A7420F0040F811 /* Release */ = {
+=======
+		E139CF8821A741280040F811 /* Release */ = {
+>>>>>>> RealmTodoey
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+<<<<<<< HEAD
+		E139CFA821A7420F0040F811 /* Debug */ = {
+=======
+		E139CF8A21A741280040F811 /* Debug */ = {
+>>>>>>> RealmTodoey
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = HotdogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniil.HotdogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+<<<<<<< HEAD
+		E139CFA921A7420F0040F811 /* Release */ = {
+=======
+		E139CF8B21A741280040F811 /* Release */ = {
+>>>>>>> RealmTodoey
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = HotdogApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Daniil.HotdogApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+<<<<<<< HEAD
+		E139CF9021A7420F0040F811 /* Build configuration list for PBXProject "HotdogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E139CFA521A7420F0040F811 /* Debug */,
+				E139CFA621A7420F0040F811 /* Release */,
+=======
+		E139CF7221A741270040F811 /* Build configuration list for PBXProject "HotdogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E139CF8721A741280040F811 /* Debug */,
+				E139CF8821A741280040F811 /* Release */,
+>>>>>>> RealmTodoey
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+<<<<<<< HEAD
+		E139CFA721A7420F0040F811 /* Build configuration list for PBXNativeTarget "HotdogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E139CFA821A7420F0040F811 /* Debug */,
+				E139CFA921A7420F0040F811 /* Release */,
+=======
+		E139CF8921A741280040F811 /* Build configuration list for PBXNativeTarget "HotdogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E139CF8A21A741280040F811 /* Debug */,
+				E139CF8B21A741280040F811 /* Release */,
+>>>>>>> RealmTodoey
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+<<<<<<< HEAD
+	rootObject = E139CF8D21A7420F0040F811 /* Project object */;
+=======
+	rootObject = E139CF6F21A741270040F811 /* Project object */;
+>>>>>>> RealmTodoey
+}

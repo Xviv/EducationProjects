@@ -1,0 +1,6 @@
+framework module Pods_DoveChatAppUITests {
+  umbrella header "Pods-DoveChatAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

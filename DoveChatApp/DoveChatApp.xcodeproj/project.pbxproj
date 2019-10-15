@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A19E8771156D5FABF2A1FC /* Pods_DoveChatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD3350BA37ED551F4299111 /* Pods_DoveChatAppTests.framework */; };
+		6A23086C8CDE2FF7997DF5ED /* Pods_DoveChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575AA035DDD40B9B35C3CD61 /* Pods_DoveChatApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6CE922EC42D977BF7134F3F0 /* Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F385A44BD8109FE9462CA3 /* Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework */; };
+		7516D374E25FDDCB3EBCF1E6 /* Pods_DoveChatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622A08ED0FF1930D81782896 /* Pods_DoveChatAppUITests.framework */; };
+		E11659402099D4D800E5E543 /* RSAKeysGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E116593F2099D4D800E5E543 /* RSAKeysGenerator.swift */; };
+		E128B6D920A8753200045561 /* SecretChatNewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E128B6D820A8753200045561 /* SecretChatNewMessageController.swift */; };
+		E129840D20A8A298001D18F6 /* IntroductionGuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129840C20A8A298001D18F6 /* IntroductionGuideController.swift */; };
+		E129840F20A8A7AD001D18F6 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E129840E20A8A7AD001D18F6 /* PageCell.swift */; };
+		E14F6D1F207C75280083049F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E14F6D1E207C75280083049F /* GoogleService-Info.plist */; };
+		E14F6D25207C75E70083049F /* PhoneNumberLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D24207C75E70083049F /* PhoneNumberLoginController.swift */; };
+		E14F6D27207C76160083049F /* CodeVerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D26207C76160083049F /* CodeVerificationController.swift */; };
+		E14F6D29207C76300083049F /* MessegesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D28207C76300083049F /* MessegesController.swift */; };
+		E14F6D2B207C76450083049F /* NewMessegeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D2A207C76450083049F /* NewMessegeController.swift */; };
+		E14F6D2F207C767D0083049F /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D2E207C767D0083049F /* ContactsViewController.swift */; };
+		E14F6D31207C76900083049F /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D30207C76900083049F /* ChatLogController.swift */; };
+		E14F6D33207C76A90083049F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D32207C76A90083049F /* CustomTabBarController.swift */; };
+		E14F6D35207C76BA0083049F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D34207C76BA0083049F /* User.swift */; };
+		E14F6D37207C76C90083049F /* Messege.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D36207C76C90083049F /* Messege.swift */; };
+		E14F6D39207C76E50083049F /* PhoneContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D38207C76E50083049F /* PhoneContact.swift */; };
+		E14F6D3B207C77010083049F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D3A207C77010083049F /* Extensions.swift */; };
+		E14F6D3D207C77220083049F /* UIImageView+Letters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D3C207C77220083049F /* UIImageView+Letters.swift */; };
+		E14F6D3F207C773A0083049F /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D3E207C773A0083049F /* UserCell.swift */; };
+		E14F6D41207C77450083049F /* ChatMessegeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D40207C77450083049F /* ChatMessegeCell.swift */; };
+		E14F6D43207C775C0083049F /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D42207C775C0083049F /* ChatInputContainerView.swift */; };
+		E14F6D45207C77680083049F /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14F6D44207C77680083049F /* ContactsCell.swift */; };
+		E14F6D47207C7A060083049F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14F6D46207C7A060083049F /* Assets.xcassets */; };
+		E19E0E8A20A8B1C40075CB88 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19E0E8920A8B1C40075CB88 /* Page.swift */; };
+		E1BCD695207D308A0039FE99 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BCD694207D308A0039FE99 /* UserProfileViewController.swift */; };
+		E1C64184207C70DD000DAB0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C64183207C70DD000DAB0B /* AppDelegate.swift */; };
+		E1C64189207C70DD000DAB0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C64187207C70DD000DAB0B /* Main.storyboard */; };
+		E1C6418C207C70DD000DAB0B /* DoveChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1C6418A207C70DD000DAB0B /* DoveChatApp.xcdatamodeld */; };
+		E1C64191207C70DE000DAB0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C6418F207C70DE000DAB0B /* LaunchScreen.storyboard */; };
+		E1CBD28E20AD6D6200050414 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CBD28D20AD6D6200050414 /* UserInfoViewController.swift */; };
+		E1CE403D20A86A2A002DCA02 /* SecretChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE403C20A86A2A002DCA02 /* SecretChatController.swift */; };
+		E1CE403F20A86A58002DCA02 /* SecretChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE403E20A86A58002DCA02 /* SecretChatLogController.swift */; };
+		E1D86B6A20978FBE00227F7B /* RSAUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D86B6920978FBE00227F7B /* RSAUtils.swift */; };
+		E1E38AD920AB1EE4009895A1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E38AD820AB1EE4009895A1 /* NotificationService.swift */; };
+		E1E38ADD20AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1E38AD620AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1C64198207C70DE000DAB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C64178207C70DD000DAB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C6417F207C70DD000DAB0B;
+			remoteInfo = DoveChatApp;
+		};
+		E1C641A3207C70DE000DAB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C64178207C70DD000DAB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1C6417F207C70DD000DAB0B;
+			remoteInfo = DoveChatApp;
+		};
+		E1E38ADB20AB1EE4009895A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1C64178207C70DD000DAB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E38AD520AB1EE4009895A1;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E15B72772082805500F46A1F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1E38ADD20AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FD3350BA37ED551F4299111 /* Pods_DoveChatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoveChatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2158CF95BCCE81965B9F72A1 /* Pods-DoveChatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatAppUITests/Pods-DoveChatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29F385A44BD8109FE9462CA3 /* Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA24815D1B132789B346DAA /* Pods-DoveChatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatAppTests/Pods-DoveChatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		575AA035DDD40B9B35C3CD61 /* Pods_DoveChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoveChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		622A08ED0FF1930D81782896 /* Pods_DoveChatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoveChatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		624A3D22D3BA1E2FEA9815DB /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatApp-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatApp-OneSignalNotificationServiceExtension/Pods-DoveChatApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6B975569A5528CF6A10152 /* Pods-DoveChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatApp/Pods-DoveChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		9ABC5586409A8113B3F41275 /* Pods-DoveChatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatAppTests/Pods-DoveChatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA76C01FB020F2EC7B79403E /* Pods-DoveChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatApp/Pods-DoveChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BBACCF295AE901BA05D5BD0C /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatApp-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatApp-OneSignalNotificationServiceExtension/Pods-DoveChatApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		E101B897590AB4FAE6B971CF /* Pods-DoveChatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoveChatAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoveChatAppUITests/Pods-DoveChatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E116593F2099D4D800E5E543 /* RSAKeysGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAKeysGenerator.swift; sourceTree = "<group>"; };
+		E128B6D820A8753200045561 /* SecretChatNewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretChatNewMessageController.swift; sourceTree = "<group>"; };
+		E129840C20A8A298001D18F6 /* IntroductionGuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionGuideController.swift; sourceTree = "<group>"; };
+		E129840E20A8A7AD001D18F6 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		E14F6D1E207C75280083049F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E14F6D24207C75E70083049F /* PhoneNumberLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberLoginController.swift; sourceTree = "<group>"; };
+		E14F6D26207C76160083049F /* CodeVerificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationController.swift; sourceTree = "<group>"; };
+		E14F6D28207C76300083049F /* MessegesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessegesController.swift; sourceTree = "<group>"; };
+		E14F6D2A207C76450083049F /* NewMessegeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessegeController.swift; sourceTree = "<group>"; };
+		E14F6D2E207C767D0083049F /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		E14F6D30207C76900083049F /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		E14F6D32207C76A90083049F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		E14F6D34207C76BA0083049F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E14F6D36207C76C90083049F /* Messege.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messege.swift; sourceTree = "<group>"; };
+		E14F6D38207C76E50083049F /* PhoneContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneContact.swift; sourceTree = "<group>"; };
+		E14F6D3A207C77010083049F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E14F6D3C207C77220083049F /* UIImageView+Letters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Letters.swift"; sourceTree = "<group>"; };
+		E14F6D3E207C773A0083049F /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		E14F6D40207C77450083049F /* ChatMessegeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessegeCell.swift; sourceTree = "<group>"; };
+		E14F6D42207C775C0083049F /* ChatInputContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		E14F6D44207C77680083049F /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		E14F6D46207C7A060083049F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19A7FDF207C7B1600D61827 /* DoveChatApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoveChatApp.entitlements; sourceTree = "<group>"; };
+		E19E0E8920A8B1C40075CB88 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		E1BCD694207D308A0039FE99 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		E1C64180207C70DD000DAB0B /* DoveChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoveChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C64183207C70DD000DAB0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1C64188207C70DD000DAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C6418B207C70DD000DAB0B /* DoveChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoveChatApp.xcdatamodel; sourceTree = "<group>"; };
+		E1C64190207C70DE000DAB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C64192207C70DE000DAB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C64197207C70DE000DAB0B /* DoveChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C641A2207C70DE000DAB0B /* DoveChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CBD28D20AD6D6200050414 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		E1CE403C20A86A2A002DCA02 /* SecretChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretChatController.swift; sourceTree = "<group>"; };
+		E1CE403E20A86A58002DCA02 /* SecretChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretChatLogController.swift; sourceTree = "<group>"; };
+		E1D86B6920978FBE00227F7B /* RSAUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAUtils.swift; sourceTree = "<group>"; };
+		E1E38AD620AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E38AD820AB1EE4009895A1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		E1E38ADA20AB1EE4009895A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C6417D207C70DD000DAB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A23086C8CDE2FF7997DF5ED /* Pods_DoveChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C64194207C70DE000DAB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A19E8771156D5FABF2A1FC /* Pods_DoveChatAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C6419F207C70DE000DAB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7516D374E25FDDCB3EBCF1E6 /* Pods_DoveChatAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E38AD320AB1EE4009895A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE922EC42D977BF7134F3F0 /* Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114B8977E6BE782EC3D487E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				575AA035DDD40B9B35C3CD61 /* Pods_DoveChatApp.framework */,
+				1FD3350BA37ED551F4299111 /* Pods_DoveChatAppTests.framework */,
+				622A08ED0FF1930D81782896 /* Pods_DoveChatAppUITests.framework */,
+				29F385A44BD8109FE9462CA3 /* Pods_DoveChatApp_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2827C97545D70522281FE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA76C01FB020F2EC7B79403E /* Pods-DoveChatApp.debug.xcconfig */,
+				6E6B975569A5528CF6A10152 /* Pods-DoveChatApp.release.xcconfig */,
+				9ABC5586409A8113B3F41275 /* Pods-DoveChatAppTests.debug.xcconfig */,
+				4BA24815D1B132789B346DAA /* Pods-DoveChatAppTests.release.xcconfig */,
+				2158CF95BCCE81965B9F72A1 /* Pods-DoveChatAppUITests.debug.xcconfig */,
+				E101B897590AB4FAE6B971CF /* Pods-DoveChatAppUITests.release.xcconfig */,
+				624A3D22D3BA1E2FEA9815DB /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				BBACCF295AE901BA05D5BD0C /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E14F6D20207C759E0083049F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E14F6D24207C75E70083049F /* PhoneNumberLoginController.swift */,
+				E14F6D26207C76160083049F /* CodeVerificationController.swift */,
+				E1BCD694207D308A0039FE99 /* UserProfileViewController.swift */,
+				E14F6D28207C76300083049F /* MessegesController.swift */,
+				E14F6D2A207C76450083049F /* NewMessegeController.swift */,
+				E14F6D2E207C767D0083049F /* ContactsViewController.swift */,
+				E128B6D820A8753200045561 /* SecretChatNewMessageController.swift */,
+				E1CE403C20A86A2A002DCA02 /* SecretChatController.swift */,
+				E1CE403E20A86A58002DCA02 /* SecretChatLogController.swift */,
+				E14F6D30207C76900083049F /* ChatLogController.swift */,
+				E14F6D32207C76A90083049F /* CustomTabBarController.swift */,
+				E129840C20A8A298001D18F6 /* IntroductionGuideController.swift */,
+				E1CBD28D20AD6D6200050414 /* UserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E14F6D21207C75AC0083049F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E14F6D34207C76BA0083049F /* User.swift */,
+				E14F6D36207C76C90083049F /* Messege.swift */,
+				E14F6D38207C76E50083049F /* PhoneContact.swift */,
+				E116593F2099D4D800E5E543 /* RSAKeysGenerator.swift */,
+				E19E0E8920A8B1C40075CB88 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E14F6D22207C75B40083049F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E14F6D3C207C77220083049F /* UIImageView+Letters.swift */,
+				E14F6D3A207C77010083049F /* Extensions.swift */,
+				E1D86B6920978FBE00227F7B /* RSAUtils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E14F6D23207C75BA0083049F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E14F6D3E207C773A0083049F /* UserCell.swift */,
+				E14F6D40207C77450083049F /* ChatMessegeCell.swift */,
+				E14F6D42207C775C0083049F /* ChatInputContainerView.swift */,
+				E14F6D44207C77680083049F /* ContactsCell.swift */,
+				E129840E20A8A7AD001D18F6 /* PageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C64177207C70DD000DAB0B = {
+			isa = PBXGroup;
+			children = (
+				E1C64182207C70DD000DAB0B /* DoveChatApp */,
+				E1E38AD720AB1EE4009895A1 /* OneSignalNotificationServiceExtension */,
+				E1C64181207C70DD000DAB0B /* Products */,
+				DD2827C97545D70522281FE0 /* Pods */,
+				114B8977E6BE782EC3D487E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C64181207C70DD000DAB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C64180207C70DD000DAB0B /* DoveChatApp.app */,
+				E1C64197207C70DE000DAB0B /* DoveChatAppTests.xctest */,
+				E1C641A2207C70DE000DAB0B /* DoveChatAppUITests.xctest */,
+				E1E38AD620AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C64182207C70DD000DAB0B /* DoveChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				E19A7FDF207C7B1600D61827 /* DoveChatApp.entitlements */,
+				E14F6D23207C75BA0083049F /* View */,
+				E14F6D22207C75B40083049F /* Helpers */,
+				E14F6D21207C75AC0083049F /* Model */,
+				E14F6D20207C759E0083049F /* Controllers */,
+				E1C64183207C70DD000DAB0B /* AppDelegate.swift */,
+				E1C64187207C70DD000DAB0B /* Main.storyboard */,
+				E1C6418F207C70DE000DAB0B /* LaunchScreen.storyboard */,
+				E14F6D46207C7A060083049F /* Assets.xcassets */,
+				E1C64192207C70DE000DAB0B /* Info.plist */,
+				E14F6D1E207C75280083049F /* GoogleService-Info.plist */,
+				E1C6418A207C70DD000DAB0B /* DoveChatApp.xcdatamodeld */,
+			);
+			path = DoveChatApp;
+			sourceTree = "<group>";
+		};
+		E1E38AD720AB1EE4009895A1 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E1E38AD820AB1EE4009895A1 /* NotificationService.swift */,
+				E1E38ADA20AB1EE4009895A1 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C6417F207C70DD000DAB0B /* DoveChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C641AB207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatApp" */;
+			buildPhases = (
+				B918C055CD07CBA9FC328944 /* [CP] Check Pods Manifest.lock */,
+				E1C6417C207C70DD000DAB0B /* Sources */,
+				E1C6417D207C70DD000DAB0B /* Frameworks */,
+				E1C6417E207C70DD000DAB0B /* Resources */,
+				86BE770F42DBEEE9CF8841A3 /* [CP] Embed Pods Frameworks */,
+				E15B72772082805500F46A1F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E38ADC20AB1EE4009895A1 /* PBXTargetDependency */,
+			);
+			name = DoveChatApp;
+			productName = DoveChatApp;
+			productReference = E1C64180207C70DD000DAB0B /* DoveChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C64196207C70DE000DAB0B /* DoveChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C641AE207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatAppTests" */;
+			buildPhases = (
+				DF9CAB7F966A9B6E2A129D7C /* [CP] Check Pods Manifest.lock */,
+				E1C64193207C70DE000DAB0B /* Sources */,
+				E1C64194207C70DE000DAB0B /* Frameworks */,
+				E1C64195207C70DE000DAB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C64199207C70DE000DAB0B /* PBXTargetDependency */,
+			);
+			name = DoveChatAppTests;
+			productName = DoveChatAppTests;
+			productReference = E1C64197207C70DE000DAB0B /* DoveChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1C641A1207C70DE000DAB0B /* DoveChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C641B1207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatAppUITests" */;
+			buildPhases = (
+				BA363C152B5F729CB30E31B1 /* [CP] Check Pods Manifest.lock */,
+				E1C6419E207C70DE000DAB0B /* Sources */,
+				E1C6419F207C70DE000DAB0B /* Frameworks */,
+				E1C641A0207C70DE000DAB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1C641A4207C70DE000DAB0B /* PBXTargetDependency */,
+			);
+			name = DoveChatAppUITests;
+			productName = DoveChatAppUITests;
+			productReference = E1C641A2207C70DE000DAB0B /* DoveChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E1E38AD520AB1EE4009895A1 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E38AE020AB1EE4009895A1 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				F5DFF4D24D6427E51FA7C490 /* [CP] Check Pods Manifest.lock */,
+				E1E38AD220AB1EE4009895A1 /* Sources */,
+				E1E38AD320AB1EE4009895A1 /* Frameworks */,
+				E1E38AD420AB1EE4009895A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = E1E38AD620AB1EE4009895A1 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C64178207C70DD000DAB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Daniil;
+				TargetAttributes = {
+					E1C6417F207C70DD000DAB0B = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					E1C64196207C70DE000DAB0B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E1C6417F207C70DD000DAB0B;
+					};
+					E1C641A1207C70DE000DAB0B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E1C6417F207C70DD000DAB0B;
+					};
+					E1E38AD520AB1EE4009895A1 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E1C6417B207C70DD000DAB0B /* Build configuration list for PBXProject "DoveChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C64177207C70DD000DAB0B;
+			productRefGroup = E1C64181207C70DD000DAB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C6417F207C70DD000DAB0B /* DoveChatApp */,
+				E1C64196207C70DE000DAB0B /* DoveChatAppTests */,
+				E1C641A1207C70DE000DAB0B /* DoveChatAppUITests */,
+				E1E38AD520AB1EE4009895A1 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C6417E207C70DD000DAB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C64191207C70DE000DAB0B /* LaunchScreen.storyboard in Resources */,
+				E14F6D1F207C75280083049F /* GoogleService-Info.plist in Resources */,
+				E14F6D47207C7A060083049F /* Assets.xcassets in Resources */,
+				E1C64189207C70DD000DAB0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C64195207C70DE000DAB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C641A0207C70DE000DAB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E38AD420AB1EE4009895A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86BE770F42DBEEE9CF8841A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoveChatApp/Pods-DoveChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Letters/Letters.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleImageViewer/SimpleImageViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyRSA/SwiftyRSA.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Letters.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleImageViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyRSA.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoveChatApp/Pods-DoveChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B918C055CD07CBA9FC328944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoveChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA363C152B5F729CB30E31B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoveChatAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF9CAB7F966A9B6E2A129D7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoveChatAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5DFF4D24D6427E51FA7C490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoveChatApp-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C6417C207C70DD000DAB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14F6D43207C775C0083049F /* ChatInputContainerView.swift in Sources */,
+				E1CBD28E20AD6D6200050414 /* UserInfoViewController.swift in Sources */,
+				E1CE403D20A86A2A002DCA02 /* SecretChatController.swift in Sources */,
+				E14F6D31207C76900083049F /* ChatLogController.swift in Sources */,
+				E1C6418C207C70DD000DAB0B /* DoveChatApp.xcdatamodeld in Sources */,
+				E14F6D25207C75E70083049F /* PhoneNumberLoginController.swift in Sources */,
+				E14F6D3F207C773A0083049F /* UserCell.swift in Sources */,
+				E14F6D37207C76C90083049F /* Messege.swift in Sources */,
+				E14F6D33207C76A90083049F /* CustomTabBarController.swift in Sources */,
+				E129840F20A8A7AD001D18F6 /* PageCell.swift in Sources */,
+				E128B6D920A8753200045561 /* SecretChatNewMessageController.swift in Sources */,
+				E129840D20A8A298001D18F6 /* IntroductionGuideController.swift in Sources */,
+				E1CE403F20A86A58002DCA02 /* SecretChatLogController.swift in Sources */,
+				E1C64184207C70DD000DAB0B /* AppDelegate.swift in Sources */,
+				E14F6D2F207C767D0083049F /* ContactsViewController.swift in Sources */,
+				E14F6D35207C76BA0083049F /* User.swift in Sources */,
+				E14F6D45207C77680083049F /* ContactsCell.swift in Sources */,
+				E14F6D41207C77450083049F /* ChatMessegeCell.swift in Sources */,
+				E14F6D3B207C77010083049F /* Extensions.swift in Sources */,
+				E14F6D2B207C76450083049F /* NewMessegeController.swift in Sources */,
+				E11659402099D4D800E5E543 /* RSAKeysGenerator.swift in Sources */,
+				E1BCD695207D308A0039FE99 /* UserProfileViewController.swift in Sources */,
+				E14F6D27207C76160083049F /* CodeVerificationController.swift in Sources */,
+				E1D86B6A20978FBE00227F7B /* RSAUtils.swift in Sources */,
+				E19E0E8A20A8B1C40075CB88 /* Page.swift in Sources */,
+				E14F6D29207C76300083049F /* MessegesController.swift in Sources */,
+				E14F6D3D207C77220083049F /* UIImageView+Letters.swift in Sources */,
+				E14F6D39207C76E50083049F /* PhoneContact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C64193207C70DE000DAB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C6419E207C70DE000DAB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E38AD220AB1EE4009895A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E38AD920AB1EE4009895A1 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1C64199207C70DE000DAB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C6417F207C70DD000DAB0B /* DoveChatApp */;
+			targetProxy = E1C64198207C70DE000DAB0B /* PBXContainerItemProxy */;
+		};
+		E1C641A4207C70DE000DAB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1C6417F207C70DD000DAB0B /* DoveChatApp */;
+			targetProxy = E1C641A3207C70DE000DAB0B /* PBXContainerItemProxy */;
+		};
+		E1E38ADC20AB1EE4009895A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E38AD520AB1EE4009895A1 /* OneSignalNotificationServiceExtension */;
+			targetProxy = E1E38ADB20AB1EE4009895A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1C64187207C70DD000DAB0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C64188207C70DD000DAB0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C6418F207C70DE000DAB0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C64190207C70DE000DAB0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1C641A9207C70DE000DAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C641AA207C70DE000DAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C641AC207C70DE000DAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA76C01FB020F2EC7B79403E /* Pods-DoveChatApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DoveChatApp/DoveChatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E1C641AD207C70DE000DAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6B975569A5528CF6A10152 /* Pods-DoveChatApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DoveChatApp/DoveChatApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E1C641AF207C70DE000DAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABC5586409A8113B3F41275 /* Pods-DoveChatAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoveChatApp.app/DoveChatApp";
+			};
+			name = Debug;
+		};
+		E1C641B0207C70DE000DAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA24815D1B132789B346DAA /* Pods-DoveChatAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoveChatApp.app/DoveChatApp";
+			};
+			name = Release;
+		};
+		E1C641B2207C70DE000DAB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2158CF95BCCE81965B9F72A1 /* Pods-DoveChatAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoveChatApp;
+			};
+			name = Debug;
+		};
+		E1C641B3207C70DE000DAB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E101B897590AB4FAE6B971CF /* Pods-DoveChatAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = DoveChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DoveChatApp;
+			};
+			name = Release;
+		};
+		E1E38ADE20AB1EE4009895A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 624A3D22D3BA1E2FEA9815DB /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E38ADF20AB1EE4009895A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBACCF295AE901BA05D5BD0C /* Pods-DoveChatApp-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ECB249Q5JR;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Daniil.DoveChatApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C6417B207C70DD000DAB0B /* Build configuration list for PBXProject "DoveChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C641A9207C70DE000DAB0B /* Debug */,
+				E1C641AA207C70DE000DAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C641AB207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C641AC207C70DE000DAB0B /* Debug */,
+				E1C641AD207C70DE000DAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C641AE207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C641AF207C70DE000DAB0B /* Debug */,
+				E1C641B0207C70DE000DAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C641B1207C70DE000DAB0B /* Build configuration list for PBXNativeTarget "DoveChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C641B2207C70DE000DAB0B /* Debug */,
+				E1C641B3207C70DE000DAB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E38AE020AB1EE4009895A1 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E38ADE20AB1EE4009895A1 /* Debug */,
+				E1E38ADF20AB1EE4009895A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1C6418A207C70DD000DAB0B /* DoveChatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1C6418B207C70DD000DAB0B /* DoveChatApp.xcdatamodel */,
+			);
+			currentVersion = E1C6418B207C70DD000DAB0B /* DoveChatApp.xcdatamodel */;
+			path = DoveChatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1C64178207C70DD000DAB0B /* Project object */;
+}

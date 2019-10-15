@@ -1,0 +1,6 @@
+framework module Pods_FlowerClassificator {
+  umbrella header "Pods-FlowerClassificator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.8.0)
+  - JTAppleCalendar (7.1.6)
+  - p2.OAuth2 (4.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftSoup (1.7.4)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - JTAppleCalendar
+  - p2.OAuth2
+  - SVProgressHUD
+  - SwiftSoup
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JTAppleCalendar
+    - p2.OAuth2
+    - SVProgressHUD
+    - SwiftSoup
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  JTAppleCalendar: abb30678f42a4ef8a340a932b1dcb8c85a33dac2
+  p2.OAuth2: fdc2effef37793a8f775dd4760bc4c1ea906c956
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 1ee0ee7485c6b514469bb9e1d6af0bb7099fcce0
+
+COCOAPODS: 1.5.3

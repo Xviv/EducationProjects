@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DoveChatApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
+pod 'Firebase/Messaging'
+pod 'Letters'
+pod 'PhoneNumberKit'
+pod 'SwiftyRSA'
+pod 'BigInt'
+pod 'OneSignal'
+pod 'Alamofire'
+pod 'SimpleImageViewer'
+
+  target 'DoveChatAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DoveChatAppUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+target 'OneSignalNotificationServiceExtension' do
+  pod 'OneSignal', '>= 2.6.2', '< 3.0'
+end	
+
+
+end

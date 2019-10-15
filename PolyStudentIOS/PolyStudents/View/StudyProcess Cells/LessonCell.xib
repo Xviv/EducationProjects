@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="lessonCell" rowHeight="200" id="LEj-Vs-FDa" customClass="LessonCell" customModule="PolyStudents" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LEj-Vs-FDa" id="PgB-ZR-sI9">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xbu-i5-ov0">
+                        <rect key="frame" x="10" y="5" width="300" height="79.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cn3-wW-eek">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="79.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mby-le-zkl">
+                                <rect key="frame" x="10" y="10" width="280" height="64.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="История и методология науки" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="IjM-Zd-5qp">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ицыксон В.М." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zF-20-y7M">
+                                        <rect key="frame" x="0.0" y="26" width="280" height="12.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Экзамен" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vV-KF-7pq">
+                                        <rect key="frame" x="0.0" y="38.5" width="280" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbR-ib-cHH">
+                                        <rect key="frame" x="0.0" y="51.5" width="280" height="13"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3zF-20-y7M" firstAttribute="height" secondItem="4vV-KF-7pq" secondAttribute="height" id="A7g-h8-diC"/>
+                                    <constraint firstItem="IjM-Zd-5qp" firstAttribute="height" secondItem="3zF-20-y7M" secondAttribute="height" multiplier="2" id="DCi-dc-q7C"/>
+                                    <constraint firstItem="4vV-KF-7pq" firstAttribute="height" secondItem="ZbR-ib-cHH" secondAttribute="height" id="sDb-iT-CEm"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mby-le-zkl" secondAttribute="trailing" constant="10" id="Apb-Hu-VFE"/>
+                            <constraint firstItem="mby-le-zkl" firstAttribute="top" secondItem="xbu-i5-ov0" secondAttribute="top" constant="10" id="BiR-C8-ZiD"/>
+                            <constraint firstAttribute="bottom" secondItem="cn3-wW-eek" secondAttribute="bottom" id="G2p-rb-NVS"/>
+                            <constraint firstAttribute="bottom" secondItem="mby-le-zkl" secondAttribute="bottom" constant="5" id="Xwi-Zs-czw"/>
+                            <constraint firstItem="cn3-wW-eek" firstAttribute="top" secondItem="xbu-i5-ov0" secondAttribute="top" id="fE4-ve-LFt"/>
+                            <constraint firstItem="cn3-wW-eek" firstAttribute="leading" secondItem="xbu-i5-ov0" secondAttribute="leading" id="oaP-zf-PQK"/>
+                            <constraint firstItem="mby-le-zkl" firstAttribute="leading" secondItem="xbu-i5-ov0" secondAttribute="leading" constant="10" id="uwU-Ji-vvx"/>
+                            <constraint firstAttribute="trailing" secondItem="cn3-wW-eek" secondAttribute="trailing" id="zJm-EA-5ty"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoDark" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-cR-WKL">
+                        <rect key="frame" x="273" y="47.5" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="7I8-kd-n06"/>
+                            <constraint firstAttribute="width" constant="22" id="osx-Xu-wag"/>
+                        </constraints>
+                        <color key="tintColor" red="0.3411764706" green="0.62352941179999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="h1O-cR-WKL" secondAttribute="bottom" constant="20" id="2J6-1B-j5p"/>
+                    <constraint firstItem="xbu-i5-ov0" firstAttribute="leading" secondItem="PgB-ZR-sI9" secondAttribute="leading" constant="10" id="FGU-HP-ply"/>
+                    <constraint firstAttribute="trailing" secondItem="h1O-cR-WKL" secondAttribute="trailing" constant="25" id="WEp-9A-0zS"/>
+                    <constraint firstItem="xbu-i5-ov0" firstAttribute="top" secondItem="PgB-ZR-sI9" secondAttribute="top" constant="5" id="qA7-Fp-Eqc"/>
+                    <constraint firstAttribute="trailing" secondItem="xbu-i5-ov0" secondAttribute="trailing" constant="10" id="yAj-kB-d96"/>
+                    <constraint firstAttribute="bottom" secondItem="xbu-i5-ov0" secondAttribute="bottom" constant="5" id="yY9-fb-Onz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="container" destination="xbu-i5-ov0" id="Yt3-qr-hAK"/>
+                <outlet property="exam" destination="ZbR-ib-cHH" id="ZrH-IG-tA8"/>
+                <outlet property="fileButton" destination="h1O-cR-WKL" id="glk-74-AE8"/>
+                <outlet property="hours" destination="4vV-KF-7pq" id="ZWE-zG-vh4"/>
+                <outlet property="lessonNameLabel" destination="IjM-Zd-5qp" id="9Qv-19-KVx"/>
+                <outlet property="noDataLabel" destination="cn3-wW-eek" id="V7f-g4-q1K"/>
+                <outlet property="semester" destination="3zF-20-y7M" id="N6z-UL-NuU"/>
+            </connections>
+            <point key="canvasLocation" x="137.59999999999999" y="117.84107946026987"/>
+        </tableViewCell>
+    </objects>
+</document>

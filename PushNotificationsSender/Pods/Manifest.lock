@@ -1,0 +1,16 @@
+PODS:
+  - Pushover (0.1.0)
+
+DEPENDENCIES:
+  - Pushover
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Pushover
+
+SPEC CHECKSUMS:
+  Pushover: eb822c227ee9345017f03c03a538d7bc045ff560
+
+PODFILE CHECKSUM: 5ce58a178ce5baa9189962287ebd85dcd89e279d
+
+COCOAPODS: 1.5.3

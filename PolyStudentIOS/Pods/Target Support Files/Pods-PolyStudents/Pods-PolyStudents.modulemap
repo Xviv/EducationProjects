@@ -1,0 +1,6 @@
+framework module Pods_PolyStudents {
+  umbrella header "Pods-PolyStudents-umbrella.h"
+
+  export *
+  module * { export * }
+}

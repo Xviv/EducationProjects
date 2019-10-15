@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eWb-Cr-ehE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+>>>>>>> RealmTodoey
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+<<<<<<< HEAD
+        <!--Navigation Controller-->
+        <scene sceneID="bMq-F6-SpL">
+            <objects>
+                <navigationController id="eWb-Cr-ehE" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JVo-bC-zLa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Kh5-DH-LDO" kind="relationship" relationship="rootViewController" id="Fjj-oG-DdZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="prB-9j-uhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-740" y="26"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VSp-6x-pin">
+            <objects>
+                <viewController id="Kh5-DH-LDO" customClass="ViewController" customModule="HotdogApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W6f-8Y-3sh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nxa-E9-Bs8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nxa-E9-Bs8" firstAttribute="leading" secondItem="x9a-eU-KgG" secondAttribute="leading" id="7Wh-66-j8q"/>
+                            <constraint firstItem="nxa-E9-Bs8" firstAttribute="top" secondItem="x9a-eU-KgG" secondAttribute="top" id="Igr-AH-2Cv"/>
+                            <constraint firstItem="nxa-E9-Bs8" firstAttribute="trailing" secondItem="x9a-eU-KgG" secondAttribute="trailing" id="Vlw-On-EWU"/>
+                            <constraint firstItem="nxa-E9-Bs8" firstAttribute="bottom" secondItem="x9a-eU-KgG" secondAttribute="bottom" id="kvp-bu-f6Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x9a-eU-KgG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pWc-bS-4jl">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="KzU-0U-3RE">
+                            <connections>
+                                <action selector="cameraTapped:" destination="Kh5-DH-LDO" id="b9L-ME-nWQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="nxa-E9-Bs8" id="nWp-bT-Qpn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6r0-o7-7oi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="237.59999999999999" y="15.742128935532236"/>
+=======
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+>>>>>>> RealmTodoey
+        </scene>
+    </scenes>
+</document>

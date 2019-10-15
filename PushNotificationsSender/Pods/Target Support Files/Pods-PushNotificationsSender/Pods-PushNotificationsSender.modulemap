@@ -1,0 +1,6 @@
+framework module Pods_PushNotificationsSender {
+  umbrella header "Pods-PushNotificationsSender-umbrella.h"
+
+  export *
+  module * { export * }
+}
