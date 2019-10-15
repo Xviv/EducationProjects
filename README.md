@@ -6,7 +6,7 @@ My first project was an instant messenger for bachelor’s degree. It was pretty
 
 <img src="https://user-images.githubusercontent.com/15909427/47257406-f6c32580-d495-11e8-8b8d-d4d3994de8ff.gif" data-canonical-src="https://user-images.githubusercontent.com/15909427/47257406-f6c32580-d495-11e8-8b8d-d4d3994de8ff.gif" width="200" height="400" />
 
-Technologies: **Swift, PushNotifications, Firebase, Networking**
+Technologies: **Swift, PushNotifications, Firebase**
 
 ## Student's personal cabinet
 It was a university project for "Галактика" company.
