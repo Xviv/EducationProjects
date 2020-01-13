@@ -20,3 +20,5 @@ Technologies: **Swift, Rest API, OAuth2, WebKit**
 My other projects you can see in repository.
 Realy soon there will be some new projects using CoreData,MLCore,ARKit and some more.
 
+![Снимок экрана 2019-12-08 в 00 53 57](https://user-images.githubusercontent.com/15909427/72284843-f7c01400-3652-11ea-821f-49d72e7ef71b.png)
+
